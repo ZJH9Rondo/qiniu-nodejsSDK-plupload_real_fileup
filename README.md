@@ -44,12 +44,12 @@ form表单enctype属性详解:http://blog.sina.com.cn/s/blog_3d2d79aa010009js.ht
 * 配置参数
 
         module.exports = {
-            'ACCESS_KEY': 'CBk2qYIgebRVDFHqaYk0vf9Jp7hSAcIvKyw49qIx',   // 七牛个人账户公钥
-            'SECRET_KEY': 'nNeq3K3ajI6NRQZzamyDxdbtnPnoXXjsn4af0V9n',   // 七牛个人账户私钥
-            'Bucket_Name': 'qiniu-file-up',                             // 七牛-个人空间名
+            'ACCESS_KEY': '七牛个人账户公钥',   // 七牛个人账户公钥
+            'SECRET_KEY': '七牛个人账户公钥',   // 七牛个人账户公钥
+            'Bucket_Name': '七牛-个人空间名'                             // 七牛-个人空间名
             'Port': 19111,
             'Uptoken_Url': '/api/fileupload/uptoken',               // 获取token路径
-            'Domain': '7xqqm5.com1.z0.glb.clouddn.com'    // 七牛子域名，自定义域名。
+            'Domain': '七牛子域名，自定义域名'    // 七牛子域名，自定义域名。
         };
      
 * 配置好参数后，即可生成token
